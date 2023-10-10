@@ -17,7 +17,7 @@
                 <button type="submit" name="signin">Sign In</button>
             </div>
         </div>
-    </form>
+</form>
 
     <footer id="footer">
         <p class="about">B.M.S. College of Engineering (BMSCE) was Founded in the year 1946 by Late Sri. B. M. Sreenivasaiah
