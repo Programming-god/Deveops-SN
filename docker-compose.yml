@@ -1,0 +1,19 @@
+version: '3'
+services:
+  web:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8080:80"
+  db:
+    image: mysql:5.7
+    environment:
+      MYSQL_ROOT_PASSWORD: 1234    
+      mysqli_ROOT_PASSWORD: 1234
+      mysqli_DATABASE: nithin
+      mysqli_USER: nithin
+      mysqli_PASSWORD: 1234
+    volumes:
+      - ./mydb.sql:/docker-entrypoint-initdb.d/mydb.sql
+      
