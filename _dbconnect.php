@@ -1,5 +1,5 @@
 <?php
-$server = "gpa-calculator-main2-db-1";
+$server = "gpa-calculator-main-db-1";
 $username = "root";
 $password = "1234";
 $database = "nithin";
