@@ -31,6 +31,7 @@
                 <br /> Bangalore - 560 019
                 <br />Karnataka, India.
             </li>
+            <h1></h1>
             <li><strong>Fax:</strong>
                 <br />+91-80-26614357
             </li>
